@@ -1,52 +1,71 @@
-body{
-    background-color: lightgrey;
+.content{
+    background-image: url('../img/fondBody.jpg');
+}
+.navbar-default{
+    background: url('../img/baniere.jpg') fixed;
+}
+.logo{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
 }
 /***********************************************
 ***                   CONTENUS ACCUEIL                     ***
 ***********************************************/
 .textHome{
-    color: #a971b1;
+    color: black;
     font-size: 17px;
     font-family: 'Baloo', cursive;
 }
 .titleHome{
-    color: blueviolet;
+    color: #C53D3C;
     text-align: center;
     font-family: 'Lobster', cursive;
 }
 .production{
     text-align: center;
-    color: blueviolet;
+    color: #C53D3C;
     font-family: 'Lobster', cursive;
+}
+.caption-text{
+    color: black;
+    font-family: 'Baloo', cursive;
+}
+#homePicture4, #homePicture5{
+    margin-bottom: 60px;
 }
 /***********************************************
 ***         CONTENUS QUI SOMMES NOUS            ***
 ***********************************************/
 .titleWho{
     text-align: center;
-    color: blueviolet;
+    color: #C53D3C;
     font-family: 'Lobster', cursive;
 }
 .title{
     text-align: center;
     font-family: 'Baloo', cursive;
-    color: blueviolet;
+    color: #C53D3C;
 }
 .textWho{
-    color: #a971b1;
+    color: black;
     font-size: 15px;
     font-family: 'Baloo', cursive;
+}
+.lastP{
+    margin-bottom: 70px;
 }
 /***********************************************
 ***    CONTENUS NOS CLIENTS TEMOIGNENT     ***
 ***********************************************/
 .titleClient, .titleClient{
     text-align: center;
-    color: blueviolet;
+    color: #C53D3C;
     font-family: 'Lobster', cursive;
 }
 .textClient{
-    color: #a971b1;
+    color: black;
     font-size: 15px;
     font-family: 'Baloo', cursive;
 }
@@ -55,26 +74,38 @@ body{
 ***********************************************/
 .titleCont{
     text-align: center;
-    color: blueviolet;
+    color: #C53D3C;
     font-family: 'Lobster', cursive;
     font-size: 50px;
 }
 .titleContact{
     text-align: center;
-    color: blueviolet;
+    color: #C53D3C;
     font-family: 'Baloo', cursive;
     font-size: 20px;
 }
 .textContact{
-    color: #a971b1;
+    color: black;
     font-size: 15px;
     font-family: 'Baloo', cursive;
 }
 label{
-    color: #c500ff;
+    color: black;
     font-size: 15px;
     font-family: 'Baloo', cursive;
 }
 h1, h2{
     padding-top:  50px;
+}
+/***********************************************
+***                             FOOTER                               ***
+***********************************************/
+.navbar-fixed-bottom{
+    height: 70px;
+    opacity: 0.7;
+}
+@media screen and (max-width: 1200){
+    .navbar-fixed-bottom{
+    opacity: 1;
+}
 }
