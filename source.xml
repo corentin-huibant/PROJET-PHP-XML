@@ -28,7 +28,7 @@
 <h3>Présentation de notre entreprise</h3>
 <p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation d’appartements et de maisons et de construction d’extensions horizontale ou verticale de maisons.</p><p>
     Nous travaillons exclusivement pour les particuliers.</p>
-<p><iframe src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" width="500" height="281" frameborder="0"></iframe></p>
+<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><iframe class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6  col-sm-offset-2 col-sm-8 col-xs-12" src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" width="500" height="281" frameborder="0"></iframe></p>
 <p>Notre groupement est en mesure de vous proposer les compétences métier dans le gros oeuvre et le second oeuvre :</p><p>
 <ul>
     <li>Maçonnerie générale</li><li>
