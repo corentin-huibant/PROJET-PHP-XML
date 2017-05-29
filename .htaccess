@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    # grace à l'option ci-dessous, le serveur est autorisé à suivre les liens symboliques dans ce répertoire.
+    #Selon la doc ubutu, un lien symbolique est un fichier qui pointe vers un autre fichier ; si vous supprimez le fichier cible, les liens symboliques pointeront alors vers un fichier inexistant. 
+    Options +FollowSymlinks
+    #l'instruction ci-dessous autorise le document .htaccess à performer une réécriture
+    RewriteEngine On
+    #on applique enfin les règles de la réécriture grace à une regex sur l'url ciblé.
+    #ci-dessous, la réécriture implique un chiffre positif et l'extension .html sur n'impotre quelle page qui contient elle aussi un chiffre en dernier paramètre de l'url ciblé.
+    RewriteRule ^([0-9]+).html$ index.php?page=$1 [L]
+</IfModule>
